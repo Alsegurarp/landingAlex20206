@@ -22,17 +22,6 @@ import { bestSellersCards } from './lib/BestSellersData';
 
 function App() {
     gsap.registerPlugin(ScrollTrigger);
-
-        // Get itinerary cards
-    // const allItineraries = getAllItineraries();
-    // const itineraryCards = allItineraries.map((itinerary) => ({
-    //     id: itinerary.slug,
-    //     slug: itinerary.slug,
-    //     title: itinerary.title,
-    //     category: itinerary.category,
-    //     image: itinerary.heroImage,
-    //     description: itinerary.description,
-    // }));
     
     useGSAP(() => {
 
